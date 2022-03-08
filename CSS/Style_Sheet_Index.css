@@ -1,0 +1,63 @@
+/*Style For The Header Section*/
+#header{
+height: 50vh;
+background-image: url("../Images/Header_Background.jpg");
+background-position: center;
+background-size: cover;
+}
+
+
+/*Style For Container That Contains KCOM Logo Left Hand Side (Header)*/
+.container{
+margin-left: 30px;
+margin-top: 50px;
+}
+
+
+/*Style For KCOM Logo Within Container Above Left Hand Side (Header)*/
+.logo{
+width: 200px;
+}
+
+
+/*Style For Main Header Text (KCOM MyTech Store)*/
+.header_text{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: #5B4E46;	
+margin-top: 10px;
+margin-left: 30px;
+}
+
+
+/*Style For MyTech services Divs Within The Body*/
+.services{
+background-color: #F5F1F0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+text-align: justify;
+text-justify: auto;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+align-items: center;
+border-top: 5px solid #5B4E46;
+}
+
+
+/*Style For Images On The Left For Services Offered Within Body*/
+.service_image_left{
+float: left;
+display: inline-block;
+height: 220px;
+width: 300px;
+}
+
+
+/*Style For Images On The Right For Services Offered Within Body*/
+.service_image_right{
+float: right;
+height: 300px;
+width: 300px;
+}
+
